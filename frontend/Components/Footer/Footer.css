@@ -1,0 +1,100 @@
+/* Footer Container */
+.footer-container {
+  margin-top: 20px;
+  background-color: #2b2b33;
+  color: white;
+  padding: 40px 20px;
+  text-align: left;
+}
+
+/* Brand Logos */
+.footer-brands {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.footer-brands img {
+  max-width: 100px;
+  height: auto;
+  filter: brightness(0) invert(1); /* Logos are white */
+}
+
+/* Footer Content */
+.footer-content {
+  display: flex;
+  margin-top:60px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Company Info Section */
+.company-info {
+  flex: 1;
+  min-width: 250px;
+  text-align: left; 
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #ff4a56;
+}
+
+.description {
+  padding: 10px 0;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 30px;
+}
+
+/* Stay Updated Section */
+.updated {
+  margin-top:20px;
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+.stay {
+  color: rgb(140, 44, 44);
+  font-size: 24px;
+}
+
+.cap {
+  color: white;
+  font-size: 17px;
+}
+
+/* Contact Info Section */
+.contact-section {
+  margin-top:20px;
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+  left:100%;
+}
+
+.footer-contact-info .add {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  color: white;
+  font-size: 2rem;
+}
+
+.social-icons a:hover {
+  color: #d63a2b;
+}

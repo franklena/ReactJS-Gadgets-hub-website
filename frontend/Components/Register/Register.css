@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  background-image: url('../Assets/hero/back');
+  background-size: cover;
+  background-position: center;
+}
+
+.register-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  width:40%;
+}
+
+.register-box h2 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.register-box input {
+  width: 70%; 
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.register-box button {
+  width: 70%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e90ff;
+  color: white;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background-color: #00aaff;
+}
+
+.error-message {
+  color: red;
+  font-size: 17px; 
+  margin-top: 10px;
+}
+
+.success-message {
+  color: green;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.register-box span {
+  color: #00aaff;
+  cursor: pointer;
+}
+
+.dont {
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+}
